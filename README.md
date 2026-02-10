@@ -3,8 +3,6 @@
 [Lista de sesiones grabadas](https://youtube.com/playlist?list=PLzPtFjpu0orWagalVbRXbdj5L4SUJuUG4&si=2OyMprFEO8rrHhZ2)
 
 
-
-
 **Problema de permisos de npm**
 
 1. Abrir powershell como administrador.
@@ -31,7 +29,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 3. Crear un proyecto usando el siguiente comando:
 
-` npx create-expo-app appExpo `
+`npx create-expo-app appExpo`
 
 4. Ejecutar el proyecto con `npm start`
 
