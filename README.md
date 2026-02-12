@@ -36,3 +36,11 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 5. Escanear el código QR que aparecerá en la terminal.
 
 6. El contenido del proyecto se cargará dentro de la App de Expo Go si todo está correcto.
+
+## Hooks
+
+Inician con la palabra use antes del nombre
+
+- useEffect
+
+- useState
