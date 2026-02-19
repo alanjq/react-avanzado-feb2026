@@ -1,21 +1,22 @@
+import { AppContext } from "@/context/AppContext";
+import { useContext } from "react";
 import { StyleSheet, Text } from "react-native";
 
 // Interfaz
 interface IHeader {
-    children?: any
+    children?: any,
+    modoOscuro?: boolean
 }
 
 // Componente
-export function Header(props : IHeader) {
-    return <Text style={styles.header}>{props.children}</Text>
-}
-
-// Estilos
-const styles = StyleSheet.create({
-    header: {
+export function Header(props: IHeader) {
+    // Consumir el contexto de la aplicación
+    const context = useContext(AppContext)
+    
+    return <Text style={{
         fontSize: 50,
         margin: 10,
-        textAlign: "center"
-    }
-})
-
+        textAlign: "center",
+        color: context.getTextColor()
+    }}>{props.children}</Text>
+}
