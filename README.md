@@ -44,3 +44,13 @@ Inician con la palabra use antes del nombre
 - useEffect
 
 - useState
+
+# API KEY Open Weather Map
+
+21b772f9974095874fd6ed3eb48e3610
+
+
+https://openweathermap.org/current?collection=current_forecast&collection=current_forecast&collection=current_forecast&collection=current_forecast#name
+
+
+https://api.openweathermap.org/data/2.5/weather?q=cancun&appid=21b772f9974095874fd6ed3eb48e3610
